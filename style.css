@@ -92,15 +92,17 @@ a:active {
 .learn-more {
     width: 158px;
     height: 44px;
-    border-color: #E06733;
+    border: #E06733 solid 3px;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 28px;
+    box-shadow: #E06733;
+    margin-bottom: 94px;
 
 }
 button:hover{
-    color: #E06733;
-    text-decoration-color: #EDF2EC;
+    background: #E06733;
+    color: #EDF2EC;
 }
 .button-text{
     text-transform: uppercase;
@@ -109,4 +111,128 @@ button:hover{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+
 }
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+}
+.about-text-container {
+    margin-top: 130px;
+     margin-left: 109px;
+
+ }
+.about-header {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+.red-text {
+    color: #E06733;
+}
+.about-text {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    margin-top: 35px;
+
+
+}
+.about-img {
+    margin-top: 93px;
+    margin-left: 160px;
+}
+.service {
+    background-color: #EDF2EC;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin-top: 95px;
+}
+.service-header-and-buttons {
+    margin-left: 109px;
+    display: flex;
+}
+.service-header {
+    display: block;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.service-button {
+    width: 161px;
+    height: 50px;
+    border: #E06733 1px solid;
+    border-radius: 5px;
+    margin-left: 35px;
+    color: #E06733;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.button-block {
+    margin-top: 67px;
+    margin-left: 122px;
+}
+.service-img-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+    margin-left: 111px;
+    gap: 116px;
+
+}
+.service-img-box2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-left: 110px;
+    gap: 116px;
+
+}
+.cards-header {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+    margin-top: -10px;
+}
+.cards-description {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    text-align: center;
+}
+.card-image {
+    width: 329px;
+    height: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+
+
+
