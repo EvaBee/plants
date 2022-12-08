@@ -10,7 +10,7 @@ html, body {
     font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+
     line-height: 50px;
 }
 .header {
@@ -120,8 +120,8 @@ button:hover{
     height: auto;
 }
 .about-text-container {
-    margin-top: 130px;
-     margin-left: 109px;
+    margin-top: 125px;
+    margin-left: 109px;
 
  }
 .about-header {
@@ -147,8 +147,8 @@ button:hover{
 
 }
 .about-img {
-    margin-top: 93px;
-    margin-left: 160px;
+    margin-top: 92px;
+    margin-left: 167px;
 }
 .service {
     background-color: #EDF2EC;
@@ -201,9 +201,10 @@ button:hover{
 .service-img-box2 {
     display: flex;
     flex-direction: row;
-    margin-top: 75px;
+    margin-top: 50px;
     margin-left: 110px;
     gap: 116px;
+    padding-bottom: 121px;
 
 }
 .cards-header {
@@ -214,7 +215,7 @@ button:hover{
     line-height: 20px;
     color: #E06733;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -9px;
 }
 .cards-description {
     font-family: 'Inter', serif;
@@ -224,15 +225,91 @@ button:hover{
     line-height: 20px;
     color: #717171;
     text-align: center;
+    margin-bottom: 35px;
 }
 .card-image {
-    width: 329px;
+    width: 330px;
     height: 350px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
+}
+.service-cards {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: #E3E1D5 1px solid;
+    border-radius: 20px;
+    box-shadow: #717171;
 }
 
+.prices {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+    align-items: end;
+    text-align: end;
+    margin: 0 0 0 110px;
+
+}
+.drop-down-menu {
+    display: block;
+    width: 332px;
+    height: 283px;
+    border: #E3E1D5 1px solid;
+    border-radius: 20px;
+    box-shadow: #717171;
+    top: 60px;
+
+}
+.price-header {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-align: start;
+    margin: 0;
+    padding-bottom: 75px;
+
+}
+.price-header2 {
+    font-family: 'Inter', serif;
+    font-size: 40px;
+    line-height: 50px;
+
+}
+.gardeners {
+    margin-left: 290px;
+}
+
+.btn {
+    margin-top: 12px;
+}
+.small-leaf {
+    display: block;
+    width: 153px;
+    height: 177px;
+    margin-top: 35px;
+    margin-left: 450px;
 
 
+}
+select {
+    position: absolute;
+    margin: 30px 200px 100px -265px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    background: #EDF2EC url("./images/arrow_btn.png") no-repeat right;
 
-
-
+    /* reset */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
