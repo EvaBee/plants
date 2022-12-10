@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;500;600&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -11,13 +11,14 @@
 <body>
 <header class="header">
     <div class="logo"><img src="images/logo_vector.png" alt="plant"><span class="pl">Plants</span></div>
-    <ul class="menu-container">
+    <nav  class="menu-container">
+    <ul>
         <li class="link-home"><a href = "#">Home</a></li>
         <li class="link"><a href = "#">About us</a></li>
         <li class="link"><a href = "#">Service</a></li>
         <li class="link"><a href = "#">Price</a></li>
         <li class="link"><a href = "#">Contacts</a></li>
-    </ul>
+    </ul></nav>
 </header>
 
 <main>
@@ -37,8 +38,8 @@
 
     <section class="about">
         <div class="about-text-container">
-            <h1 class="about-header">We are&nbsp<span class="red-text">professional<br>
-                experienced</span> gardeners</h1>
+            <h2 class="about-header">We are&nbsp;<span class="red-text">professional<br>
+                experienced</span> gardeners</h2>
             <p class="about-text">
                 Lorem Ipsum is simply dummy text of the printing and<br>
                 typesetting industry. Lorem Ipsum has been the industry's<br>
@@ -55,8 +56,8 @@
 
     <section class="service">
         <div class="service-header-and-buttons">
-        <h1 class="service-header">Service and our<br>
-            projects</h1>
+        <h2 class="service-header">Service and our<br>
+            projects</h2>
             <div class="button-block">
             <button class="service-button">Gardens</button>
             <button class="service-button">Lawn</button>
@@ -66,19 +67,19 @@
             <div class="service-cards">
                 <div class="cards-image"></div>
                 <img src="./images/first.jpg" alt="Garden care" class="card-image">
-                <h1 class="cards-header">Garden care</h1>
+                <h3 class="cards-header">Garden care</h3>
                 <p class="cards-description">Lorem Ipsum has been the industry</p>
                 </div>
             <div class="service-cards">
                 <div class="cards-image"></div>
                 <img src="./images/2.jpg" alt="Planting" class="card-image">
-                <h1 class="cards-header">Planting</h1>
+                <h3 class="cards-header">Planting</h3>
                 <p class="cards-description">Lorem Ipsum has been the industry</p>
             </div>
             <div class="service-cards">
                 <div class="cards-image"></div>
                 <img src="./images/3.jpg" alt="Lawn care" class="card-image">
-                <h1 class="cards-header">Lawn care</h1>
+                <h3 class="cards-header">Lawn care</h3>
                 <p class="cards-description">Lorem Ipsum has been the industry</p>
             </div>
         </div>
@@ -86,19 +87,19 @@
             <div class="service-cards">
                 <div class="cards-image"></div>
                 <img src="./images/4.jpg" alt="Planting" class="card-image">
-                <h1 class="cards-header">Planting</h1>
+                <h3 class="cards-header">Planting</h3>
                 <p class="cards-description">Lorem Ipsum has been the industry</p>
             </div>
             <div class="service-cards">
                 <div class="cards-image"></div>
                 <img src="./images/5.jpg" alt="Garden care" class="card-image">
-                <h1 class="cards-header">Garden care</h1>
+                <h3 class="cards-header">Garden care</h3>
                 <p class="cards-description">Lorem Ipsum has been the industry</p>
             </div>
             <div class="service-cards">
                 <div class="cards-image"></div>
                 <img src="./images/6.jpg" alt="Planting" class="card-image">
-                <h1 class="cards-header">Planting</h1>
+                <h3 class="cards-header">Planting</h3>
                 <p class="cards-description">Lorem Ipsum has been the industry</p>
             </div>
             </div>
@@ -107,12 +108,12 @@
     <section class="prices">
 
         <div class="price-box">
-            <h1 class="price-header">Prices</h1>
+            <h2 class="price-header">Prices</h2>
             <div class="drop-down-menu">
                 <div class="drop">
-                    <img class="img1" src="images/price%20item.png">
-                    <img class="img2" src="images/img2.png">
-                    <img class="img3" src="images/img3.png">
+                    <img class="img1" src="images/price%20item.png" alt="price">
+                    <img class="img2" src="images/img2.png" alt="price">
+                    <img class="img3" src="images/img3.png" alt="price">
                   <!--  <select class="round">
                         <option selected>Basic</option>
                         <option>Standart</option>
@@ -132,17 +133,44 @@
             </div>--></div></div>
 
             <div class="gardeners">
-                <h1 class="price-header2">Our best <span class="green-text">gardeners</span> are<br> ready to help you</h1>
+                <h3 class="price-header2">Our best <span class="green-text">gardeners</span> are<br> ready to help you</h3>
 
             <button class="service-button btn">Contact us</button>
             <img class="small-leaf" src="./images/leafs_small.jpg" alt="leafs_small">
-        </div>
+            </div></div>
     </section>
 
 
-    <section class="contact-us"></section>
+    <section class="contact-us">
+        <div class="woman-image">
+            <img src="./images/contact_woman%201.png" alt="gardener">
+        </div>
+        <div class="contact">
+            <h2 class="green-text contac-text"> Contact us</h2>
+            <div class="select-city">
+                    <select>
+                        <option selected>City</option>
+                        <option>Canandaigua, NY</option>
+                        <option>New York City</option>
+                        <option>Yonkers, NY</option>
+                        <option>Sherrill, NY</option>
+                    </select>
+                </div>
+        </div>
+    </section>
 </main>
-<footer></footer>
+<footer>
+    <div class="year">© &nbsp;&nbsp;2022&nbsp;&nbsp;&nbsp;&nbsp;github</div>
+    <div class="disign">Rolling Scopes School</div>
+    <div class="social-icons">
+            <ul>
+        <li><a href="#"><img class="icn" src="./images/icons/Vector.svg" alt="instagram"></a></li>
+        <li><a href="#"><img class="icn" src="./images/icons/facebook.svg" alt="facebook"></a></li>
+        <li><a href="#"><img class="icn" src="./images/icons/twitter.svg" alt="twitter"></a></li>
+        <li><a href="#"><img class="icn" src="./images/icons/pinterest.svg" alt="pinterest"></a></li>
+        </ul>
+    </div>
+</footer>
 
 </body>
 </html>
