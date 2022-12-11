@@ -1,0 +1,66 @@
+@media (min-width: 320px) and (max-width:768px) {
+    .wrapper {
+        max-width: 768px;
+        scroll-behavior: smooth;
+        margin: 0 auto;
+        padding: 0;
+
+
+    }
+
+.header{
+    display: flex;
+        width: 100vw;
+        height: 117px;
+        padding-top: 0;
+
+    }
+.logo-leaf {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+    .logo {
+        display: flex;
+        margin-left: 50px;
+        padding-top: 35px;
+
+    }
+
+    li {
+
+        margin-right: 35px;
+
+    }
+    .menu-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 110px;
+
+    }
+    .welcome {
+        width: 100vw;
+        height: auto;
+    }
+.img-container {
+    position: absolute;
+    width: 280px;
+    height: 254px;
+    margin-left: 440px;
+    margin-top: 37px;
+
+}
+    .text-container{
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+.we-grow-header {
+    font-size: 35px;
+}
+.welcome-text {
+    font-size: 16px;
+    margin-top: -8px;
+}
+
+
+}
