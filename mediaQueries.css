@@ -84,13 +84,17 @@ br {
         margin-top:  24px;
         letter-spacing: 0em;
 
+
     }
     .learn-more {
         margin-top: 18px;
     }
     .about {
+        display: flex;
         align-content: center;
-margin: 0;
+        margin: -18px;
+        flex-direction: column;
+
 
     }
     .about-text-container {
@@ -106,11 +110,60 @@ margin: 0;
         line-height: 46px;
 
     }
-    .about-img {
-        position: absolute;
-        display: none;
-    }
 
+    .about-header {
+        max-width: 423px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        word-wrap: normal;
+        margin-left: 240px;
+        text-align: left;
+
+    }
+    .about-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        margin: 51px 0 0 65px;
+        max-width: 668px;
+    }
+    .about-img {
+        width: 250px;
+        height: 258px;
+        margin-top: 70px;
+        margin-left: 275px;
+    }
+    .service {
+        flex-direction: column;
+
+    }
+    .service-header-and-buttons{
+        flex-direction: column;
+    }
+    .service-header {
+        display: block;
+        margin-top: 80px;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: left;
+        margin-left: -55px;
+        width: 306px;
+    }
+    .button-block {
+        display: block;
+        width: 559px;
+        margin: 0;
+
+
+    }
+.service-button {
+
+}
+.service-img-box {
+    margin: 0;
+}
 }
 
 
