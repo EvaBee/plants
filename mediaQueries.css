@@ -152,14 +152,17 @@ br {
         width: 306px;
     }
     .button-block {
-        display: block;
-        width: 559px;
-        margin: 0;
+
+        flex-direction: row;
+        margin-left: -92px;
+        margin-top: 13px;
+        padding: 0;
+
 
 
     }
 .service-button {
-
+padding: 0;
 }
 .service-img-box {
     margin: 0;
