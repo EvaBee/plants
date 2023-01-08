@@ -53,6 +53,7 @@ a {
 }
 a:hover {
     color: #E06733;
+    transition: background 0.5s ease;
 }
 a:active {
     color: #E06733;
@@ -110,6 +111,7 @@ a:active {
 button:hover{
     background: #E06733;
     color: #EDF2EC;
+    transition: background 0.5s ease;
 }
 .button-text{
     text-transform: uppercase;
@@ -449,4 +451,9 @@ footer {
 .icn {
     width: 32px;
     height: 32px;
+}
+.icnR {
+    padding-top: 30px;
+    width: 70px;
+    height: 70px;
 }
