@@ -137,8 +137,9 @@ br {
     .service {
         flex-direction: column;
 
+
     }
-    .service-header-and-buttons{
+    .service-header-and-buttons {
         flex-direction: column;
     }
     .service-header {
@@ -164,8 +165,62 @@ br {
 padding: 0;
 }
 .service-img-box {
-    margin: 0;
+     width: 100vw;
+    height: auto;
+    margin-top: 37px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    gap: 105px;
+
+
 }
+.service-img-box2 {
+
+}
+    .service-img-box2> .service-cards:nth-child(1){
+    position: absolute;
+    margin: -513px 0px 50px 390px;
+
+}
+    .service-img-box2 {
+        width: 100vw;
+        margin-left: 50px;
+
+
+    }
+    .service-cards{
+        width: 285px;
+        height: 450px;
+    }
+.card-image {
+
+    width: 281px;
+    height: 350px;
+/*    padding: 0 0 40px 0;*/
+}
+    .service-img-box> .service-cards:nth-child(3){
+     margin-top: -68px;
+
+    }
+.cards-header {
+    margin-top: -13px;
+}
+.cards-description {
+    width: 201px;
+    padding-bottom: 20px;
+
+    text-align: center;
+    margin: -10px 0 0 30px;
+
+}
+    .service-img-box2> .service-cards:nth-child(2) {
+        margin-top: -24px;
+    }
+    .service-img-box2> .service-cards:nth-child(3) {
+        margin-top: -24px;
+        margin-left: -10px;
+    }
+    .prices
 }
 
 
