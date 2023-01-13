@@ -28,14 +28,17 @@
 
     }
 
-    li {
+    ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+   .menu-container>ul>li {
 
-        margin-right: 35px;
-
+        display: inline-block;
     }
 
     .menu-container {
-        display: flex;
         margin-top: 20px;
         margin-left: 110px;
 
@@ -288,6 +291,10 @@ flex-direction: column;
 .social-icons {
     margin-left: 250px;
     padding: 0;
+    margin-top: 40px;
+}
+.icnR {
+    margin-top: -28px;
 }
 }
 
