@@ -210,7 +210,7 @@ padding: 0;
     padding-bottom: 20px;
 
     text-align: center;
-    margin: -10px 0 0 30px;
+    margin: -9px 0 0 20px;
 
 }
     .service-img-box2> .service-cards:nth-child(2) {
@@ -220,7 +220,75 @@ padding: 0;
         margin-top: -24px;
         margin-left: -10px;
     }
-    .prices
+    .prices {
+        margin-top: -60px;
+    }
+    .price-header {
+        margin-left: 65px;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .drop-down-menu {
+        margin-left: 50px;
+    }
+    .btn {
+    margin: -185px 50px 0 556px;
+    }
+    .small-leaf {
+        width: 152px;
+        height: 174px;
+        margin: -108px 50px 0 566px;
+    }
+    .price-header2 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        margin: -285px 50px 0 427px;
+    }
+    .woman-image{
+        width: 200px;
+        height: 248px;
+    }
+    .woman-image > img {
+        width: 200px;
+        height: 248px;
+        background-size: contain;
+        margin: 438px 185px;
+
+    }
+    .contact-us {
+        height: 739px;
+        margin-top: 160px;
+    }
+    .contac-text {
+        margin: 40px -14px 0 ;
+
+    }
+    .select-city {
+        margin: 101px -140px;
+    }
+.footer {
+    height: 181px;
+flex-direction: column;
+   }
+.year {
+
+    margin: 23px;
+    text-align: center;
+}
+.disign {
+    text-align: center;
+    margin: -33px;
+}
+.social-icons > ul {
+    margin: 0;
+    padding: 0;
+}
+.social-icons {
+    margin-left: 250px;
+    padding: 0;
+}
 }
 
 
