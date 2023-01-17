@@ -1,9 +1,14 @@
-let hamburger = document.querySelector('.device-menu');
+let hamburger = document.querySelector('.burger');
 let menu = document.querySelector('.menu-container');
 
 const toggleMenu = () => {
     menu.classList.toggle('active');
 }
+const burger = document.querySelector(".burger");
+
+burger.addEventListener("click", function(){
+    burger.classList.toggle("open");
+});
 
 hamburger.addEventListener('click', e => {
     e.stopPropagation();
@@ -20,9 +25,4 @@ document.addEventListener('click', e => {
     if (!its_menu && !its_hamburger && menu_is_active) {
         toggleMenu();
     }
-})
-let btn = document.querySelector('.menu-btn')
-
-btn.addEventListener('click', function () {
-    this.classList.toggle('is-active')
 })
