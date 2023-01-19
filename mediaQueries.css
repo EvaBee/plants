@@ -678,6 +678,16 @@ flex-direction: column;
         transform: rotate(45deg);
         top: -12px;
     }
+    .menu-container {
+        transform: translateX(-150%);
+        animation: ani 1s forwards;
+    }
+
+    @keyframes ani {
+        100% {transform: translateX(0);}
+        0% {transform: translateY(-150%);}
+    }
+
 
 }
 

@@ -327,29 +327,7 @@ button:hover{
     margin-top: 29px;
 
 }
-/*select {
-    border: none;
-    outline: 0;
-    appearance: none;
-    border-radius: 20px;
-    display: inline-block;
-    height: 50px;
-    width: 250px;
-    background: url("./images/arrow_btn.png")  no-repeat  right;
 
-
-}
-.round {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 34px;
-    margin-left: 41px;
-    text-align: center;
-    -webkit-appearance: button;
-}*/
 .img1 {
     display: inline-block;
     margin: 32px 41px 0 41px;
