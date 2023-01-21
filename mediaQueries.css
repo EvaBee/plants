@@ -345,9 +345,11 @@ flex-direction: column;
 
     .welcome-text {
         margin: 15px 40px 0 0;
-        width: 315px;
+        width: 314px;
+        max-width: 320px;
         font-size: 16px;
         line-height: 25px;
+
     }
 
     .learn-more {
@@ -366,7 +368,7 @@ flex-direction: column;
 
     .about {
         width: 100vw;
-        height: 516px;
+        height: auto;
     }
 
     .about-text-container {
@@ -407,7 +409,7 @@ flex-direction: column;
 
     .service-header {
         width: 187px;
-        margin: 50px 168px 0 25px;
+        margin: 60px 168px 0 25px;
         font-size: 25px;
         line-height: 33px;
     }
@@ -648,7 +650,8 @@ flex-direction: column;
     .burger {
         cursor: pointer;
         width: 40px;
-        margin: 34px 0 0 -35px;
+        position: relative;
+        margin: 34px 0 0 -75px;
         z-index: 10;
            }
 
