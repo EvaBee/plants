@@ -487,51 +487,48 @@ flex-direction: column;
 
     .price-header {
         font-size: 25px;
-        margin: 78px 150px;
+        margin: 88px 150px;
+
     }
 
     .drop-down-menu {
-        margin: -47px 79px;
+        display: flex;
+        flex-direction: column;
+        margin: -55px 79px;
         width: 224px;
         height: 235px;
+    }
+    .drop-down .drop-btn {
+        display: flex;
+        width: 180px;
+        height: 50px;
+        margin: 29px 22px -14px 22px;
+        padding: 16px 61px 0 30px;
+    }
+
+    .drop-header {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .drop-btn i {
+        margin: 5px 15px 15px 92px;
     }
 
     .small-leaf {
         display: none;
     }
 
-    .img1 {
-        width: 180px;
-        height: 49px;
-        margin-left: 22px;
-        margin-top: 25px;
-
-    }
-
-    .img2 {
-        width: 180px;
-        height: 49px;
-        margin: -4px 0 0 22px;
-    }
-
-    .img3 {
-        width: 180px;
-        height: 49px;
-        margin-left: 22px;
-        margin-top: -5px;
-    }
-
     .service-button {
         width: 121px;
         height: 35px;
-        margin: 153px 132px 0px 0;
+        margin: 165px 132px 0px 0;
 
     }
 
     .price-header2 {
         width: 230px;
         height: 77px;
-        margin: 67px 76px 0 76px;
+        margin: 75px 76px 0 76px;
         font-size: 20px;
     }
 
@@ -551,7 +548,7 @@ flex-direction: column;
 
     .contac-text {
         font-size: 25px;
-        margin: 15px 0 0 -250px;
+        margin: 27px 0 0 -245px;
     }
 
     .select-city > select {
@@ -566,7 +563,7 @@ flex-direction: column;
     .woman-image {
         width: 100px;
         height: 124px;
-        margin: 321px 142px 0 142px;
+        margin: 330px 142px 0 142px;
         object-fit: cover;
     }
 
@@ -584,7 +581,7 @@ flex-direction: column;
 
     .year {
 
-        margin: 12px;
+        margin: 20px;
         text-align: center;
     }
 
@@ -690,6 +687,7 @@ flex-direction: column;
         100% {transform: translateX(0);}
         0% {transform: translateY(-150%);}
     }
+
 
 
 }
