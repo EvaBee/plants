@@ -109,9 +109,10 @@ a:active {
 
 }
 button:hover{
-    background: #E06733;
-    color: #EDF2EC;
-    transition: background 0.5s ease;
+    cursor: pointer;
+    background-color: var(--main-red-color);
+    color: white;
+    transition: all 0.5s ease-in-out;
 }
 .button-text{
     text-transform: uppercase;
@@ -170,6 +171,10 @@ button:hover{
 .service-header-and-buttons {
     margin-left: 109px;
     display: flex;
+}
+.service .buttons_hover {
+    background-color: #e06733;
+    color: white;
 }
 .service-header {
     display: block;
@@ -243,7 +248,9 @@ button:hover{
     margin-top: -10px;
 }
 
-.card-image {
+.garden-card-image,
+.planting-card-image,
+.lawn-card-image {
     width: 330px;
     height: 350px;
     border-radius: 20px 20px 0 0;
@@ -443,6 +450,10 @@ footer {
     width: 70px;
     height: 70px;
 }
+.blur {
+    filter: blur(2px);
+    transition: all 0.5s ease-in-out;
+}
 
 /*drop down menu======================================================================================*/
 .drop-down .drop-btn {
@@ -557,3 +568,5 @@ i {
     line-height: 20px;
     color: #717171;
 }
+/*service effects----------------------------------------------------------------------------------------------*/
+

@@ -481,6 +481,7 @@ flex-direction: column;
 
     .prices {
         width: 100vw;
+        height: auto;
 
 
     }
@@ -521,7 +522,7 @@ flex-direction: column;
     .service-button {
         width: 121px;
         height: 35px;
-        margin: 165px 132px 0px 0;
+        margin: 165px 132px 0px 129px;
 
     }
 
@@ -563,7 +564,7 @@ flex-direction: column;
     .woman-image {
         width: 100px;
         height: 124px;
-        margin: 330px 142px 0 142px;
+        margin: 320px 142px 0 142px;
         object-fit: cover;
     }
 
